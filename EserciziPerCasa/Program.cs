@@ -10,7 +10,7 @@ namespace EserciziPerCasa
             Console.WriteLine("primo esercizio");
             List<double> numeri1 = new List<double>();
             int c = 0;
-            while(c<1)
+            while(c<10)
             {
                 Console.WriteLine("inserisci un numero:");
                 double a = double.Parse(Console.ReadLine());
@@ -25,7 +25,7 @@ namespace EserciziPerCasa
             List<double> numeri2 = new List<double>();
             c = 0;
             Random rnd = new Random();
-            while (c<1)
+            while (c<10)
             {
                 double b = rnd.Next(1, 15);
                 c++;
@@ -45,6 +45,26 @@ namespace EserciziPerCasa
             for(int i=0;i<numeri3.Count;i++)
             {
                 Console.WriteLine($"{numeri3[i]}");
+            }
+            Console.WriteLine("quarto esercizio");
+            List<double> numeri4 = new List<double>();
+            c = 0;
+            const int TANTI = 10;
+            Console.WriteLine("inserisci un numero da 1 a 1000");
+            int f = int.Parse(Console.ReadLine());
+            while (c < TANTI)
+            {
+                double e = rnd.Next(0,1000);
+                c++;
+                if(e>f)
+                {
+                    numeri4.Add(e);
+                    numeri4.Sort();
+                }
+            }
+            for (int i = 0; i < numeri4.Count; i++)
+            {
+                Console.WriteLine($"{numeri4[i]}");
             }
 
 
