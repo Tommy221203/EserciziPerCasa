@@ -16,7 +16,7 @@ namespace EserciziPerCasa
                 c++;
                 if(numeri.Contains(a))
                 {
-                    Console.WriteLine($"il valore {a} è gia contenuto nella lista.");
+                    Console.WriteLine($"il valore {a} è gia contenuto nella lista");
                 }
                 numeri.Add(a);
             }
