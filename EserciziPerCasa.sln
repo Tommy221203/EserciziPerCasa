@@ -5,7 +5,7 @@ VisualStudioVersion = 16.0.29418.71
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EserciziPerCasa1", "EserciziPerCasa\EserciziPerCasa1.csproj", "{DF0FC550-8E78-48E9-BCC3-053D8C7906BE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Program2", "Program2\Program2.csproj", "{6C035D0E-4389-4738-85C9-0C59964A807D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EserciziPerCasa2", "Program2\EserciziPerCasa2.csproj", "{6C035D0E-4389-4738-85C9-0C59964A807D}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EserciziPerCasa3", "EserciziPerCasa3\EserciziPerCasa3.csproj", "{03FC87A1-B9BE-447D-9286-3E8533EFB4BC}"
 EndProject
